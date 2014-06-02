@@ -12,9 +12,11 @@
 
 #pragma mark - Initializer
 
-- (id)initWithName:(NSString *)name color:(NSString *)color andAlcohol:(NSUInteger)alcohol {
+- (id)initWithName:(NSString *)aName color:(NSString *)aColor andAlcohol:(NSUInteger)aGrade {
     if (self = [super init]){
-        
+        name = aName;
+        color = aColor;
+        grade = aGrade;
     }
     return self;
 }
@@ -27,8 +29,6 @@
 }
 
 
-
-
 #pragma mark - Public Methods
 
 //- (void)setName:(NSString *)name {
@@ -36,7 +36,7 @@
 //}
 
 - (void)printBeerInfo {
-    NSLog(@"Beer info. Name: %@ Color: %@ & alcohol: %d",name ,color, grade);
+    NSLog(@"Beer info.\n Name: %@ Color: %@ & alcohol: %d",name ,color, grade);
 }
 
 - (void)printBeerInfoWithHeader:(NSString *)header {

@@ -19,13 +19,13 @@
     [self.window makeKeyAndVisible];
     
     Beer *mahou = [[Beer alloc]init];
-    [mahou printBeerInfo];
+//    [mahou printBeerInfo];
     [mahou printBeerInfoWithHeader:@"Mahou"];
     [mahou printBeerInfoWithHeader:@"Mahou" andFooter:@"5%"];
     [mahou printBeerInfoWithHeader:@"Mahou" footer:@"5%" andNumberOfEmojis:10];
     
-    Beer *cruzcampo = [Beer new];
-    [cruzcampo printBeerInfoWithHeader:@"Cruzcampo"];
+//    Beer *cruzcampo = [Beer new];
+//    [cruzcampo printBeerInfoWithHeader:@"Cruzcampo"];
     
     return YES;
 }
