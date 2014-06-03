@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D189F38193E04C300C2ABFB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D189F37193E04C300C2ABFB /* Storyboard.storyboard */; };
+		1D189F3B193E0B9F00C2ABFB /* EuroCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D189F3A193E0B9F00C2ABFB /* EuroCalculatorViewController.m */; };
+		1D189F3E193E0CA700C2ABFB /* EuroConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D189F3D193E0CA700C2ABFB /* EuroConverterViewController.m */; };
 		1D43CE40193CD10900C03C6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D43CE3F193CD10900C03C6A /* Foundation.framework */; };
 		1D43CE42193CD10900C03C6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D43CE41193CD10900C03C6A /* CoreGraphics.framework */; };
 		1D43CE44193CD10900C03C6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D43CE43193CD10900C03C6A /* UIKit.framework */; };
@@ -20,6 +23,8 @@
 		1D43CE65193CD10900C03C6A /* BeersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D43CE64193CD10900C03C6A /* BeersTests.m */; };
 		1D43CE7F193CD15D00C03C6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D43CE7E193CD15D00C03C6A /* AppDelegate.m */; };
 		1D43CE82193CD18C00C03C6A /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D43CE81193CD18C00C03C6A /* Beer.m */; };
+		1D8FC6B2193DC353000BEC64 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FC6B1193DC353000BEC64 /* Person.m */; };
+		1D8FC6B5193DE8CD000BEC64 /* EuroConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FC6B4193DE8CD000BEC64 /* EuroConverter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D189F37193E04C300C2ABFB /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		1D189F39193E0B9F00C2ABFB /* EuroCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroCalculatorViewController.h; sourceTree = "<group>"; };
+		1D189F3A193E0B9F00C2ABFB /* EuroCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroCalculatorViewController.m; sourceTree = "<group>"; };
+		1D189F3C193E0CA700C2ABFB /* EuroConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverterViewController.h; sourceTree = "<group>"; };
+		1D189F3D193E0CA700C2ABFB /* EuroConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverterViewController.m; sourceTree = "<group>"; };
 		1D43CE3C193CD10900C03C6A /* Beers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D43CE3F193CD10900C03C6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D43CE41193CD10900C03C6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,6 +61,10 @@
 		1D43CE7E193CD15D00C03C6A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D43CE80193CD18C00C03C6A /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
 		1D43CE81193CD18C00C03C6A /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
+		1D8FC6B0193DC353000BEC64 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1D8FC6B1193DC353000BEC64 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1D8FC6B3193DE8CD000BEC64 /* EuroConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverter.h; sourceTree = "<group>"; };
+		1D8FC6B4193DE8CD000BEC64 /* EuroConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +124,7 @@
 		1D43CE45193CD10900C03C6A /* Beers */ = {
 			isa = PBXGroup;
 			children = (
+				1D189F37193E04C300C2ABFB /* Storyboard.storyboard */,
 				1D43CE6E193CD13100C03C6A /* Classes */,
 				1D43CE75193CD13100C03C6A /* Libraries */,
 				1D43CE77193CD13100C03C6A /* Other Sources */,
@@ -179,6 +194,10 @@
 		1D43CE71193CD13100C03C6A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1D189F39193E0B9F00C2ABFB /* EuroCalculatorViewController.h */,
+				1D189F3A193E0B9F00C2ABFB /* EuroCalculatorViewController.m */,
+				1D189F3C193E0CA700C2ABFB /* EuroConverterViewController.h */,
+				1D189F3D193E0CA700C2ABFB /* EuroConverterViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -188,6 +207,10 @@
 			children = (
 				1D43CE80193CD18C00C03C6A /* Beer.h */,
 				1D43CE81193CD18C00C03C6A /* Beer.m */,
+				1D8FC6B0193DC353000BEC64 /* Person.h */,
+				1D8FC6B1193DC353000BEC64 /* Person.m */,
+				1D8FC6B3193DE8CD000BEC64 /* EuroConverter.h */,
+				1D8FC6B4193DE8CD000BEC64 /* EuroConverter.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -338,6 +361,7 @@
 			files = (
 				1D43CE4A193CD10900C03C6A /* InfoPlist.strings in Resources */,
 				1D43CE52193CD10900C03C6A /* Images.xcassets in Resources */,
+				1D189F38193E04C300C2ABFB /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +381,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D43CE82193CD18C00C03C6A /* Beer.m in Sources */,
+				1D189F3B193E0B9F00C2ABFB /* EuroCalculatorViewController.m in Sources */,
+				1D189F3E193E0CA700C2ABFB /* EuroConverterViewController.m in Sources */,
 				1D43CE7F193CD15D00C03C6A /* AppDelegate.m in Sources */,
+				1D8FC6B2193DC353000BEC64 /* Person.m in Sources */,
+				1D8FC6B5193DE8CD000BEC64 /* EuroConverter.m in Sources */,
 				1D43CE4C193CD10900C03C6A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,6 +583,7 @@
 				1D43CE6A193CD10900C03C6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D43CE6B193CD10900C03C6A /* Build configuration list for PBXNativeTarget "BeersTests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +592,7 @@
 				1D43CE6D193CD10900C03C6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

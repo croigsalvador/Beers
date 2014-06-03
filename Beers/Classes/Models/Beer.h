@@ -9,18 +9,33 @@
 #import <Foundation/Foundation.h>
 
 @interface Beer : NSObject {
-    // iVars
+    // iVars privados por defecto, si pones @private 
     NSString *name;
     NSString *color;
     NSUInteger grade;
 }
 
+@property (strong, nonatomic) NSString *country;
 
-#pragma mark - Setters 
 
-//- (void)setName:(NSString *)name;
-//- (void)setColor:(NSString *)color;
-//- (void)setGrade:(NSUInteger)grade;
+//#pragma mark - Initializers
+//
+//- (id)initWithName:(NSString *)aName color:(NSString *)aColor andAlcohol:(NSUInteger)aGrade;
+//
+//
+
+#pragma mark - Custom Getters
+
+- (NSString *)name;
+- (NSString *)color;
+- (NSUInteger)grade;
+
+
+#pragma mark - Custom Setters
+//
+- (void)setName:(NSString *)aName;
+- (void)setColor:(NSString *)aColor;
+- (void)setGrade:(NSUInteger)aGrade;
 
 #pragma mark - Public Methods
 
