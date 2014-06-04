@@ -10,6 +10,8 @@
 		1D189F38193E04C300C2ABFB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D189F37193E04C300C2ABFB /* Storyboard.storyboard */; };
 		1D189F3B193E0B9F00C2ABFB /* EuroCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D189F3A193E0B9F00C2ABFB /* EuroCalculatorViewController.m */; };
 		1D189F3E193E0CA700C2ABFB /* EuroConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D189F3D193E0CA700C2ABFB /* EuroConverterViewController.m */; };
+		1D189F41193E264B00C2ABFB /* AlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D189F40193E264B00C2ABFB /* AlphaViewController.m */; };
+		1D189F43193E27B500C2ABFB /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1D189F42193E27B500C2ABFB /* images.jpeg */; };
 		1D43CE40193CD10900C03C6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D43CE3F193CD10900C03C6A /* Foundation.framework */; };
 		1D43CE42193CD10900C03C6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D43CE41193CD10900C03C6A /* CoreGraphics.framework */; };
 		1D43CE44193CD10900C03C6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D43CE43193CD10900C03C6A /* UIKit.framework */; };
@@ -43,6 +45,9 @@
 		1D189F3A193E0B9F00C2ABFB /* EuroCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroCalculatorViewController.m; sourceTree = "<group>"; };
 		1D189F3C193E0CA700C2ABFB /* EuroConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverterViewController.h; sourceTree = "<group>"; };
 		1D189F3D193E0CA700C2ABFB /* EuroConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverterViewController.m; sourceTree = "<group>"; };
+		1D189F3F193E264B00C2ABFB /* AlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaViewController.h; sourceTree = "<group>"; };
+		1D189F40193E264B00C2ABFB /* AlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaViewController.m; sourceTree = "<group>"; };
+		1D189F42193E27B500C2ABFB /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		1D43CE3C193CD10900C03C6A /* Beers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D43CE3F193CD10900C03C6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D43CE41193CD10900C03C6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -198,6 +203,8 @@
 				1D189F3A193E0B9F00C2ABFB /* EuroCalculatorViewController.m */,
 				1D189F3C193E0CA700C2ABFB /* EuroConverterViewController.h */,
 				1D189F3D193E0CA700C2ABFB /* EuroConverterViewController.m */,
+				1D189F3F193E264B00C2ABFB /* AlphaViewController.h */,
+				1D189F40193E264B00C2ABFB /* AlphaViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -256,6 +263,7 @@
 		1D43CE79193CD13100C03C6A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				1D189F42193E27B500C2ABFB /* images.jpeg */,
 				1D43CE51193CD10900C03C6A /* Images.xcassets */,
 				1D43CE7A193CD13100C03C6A /* AppIcon */,
 				1D43CE7B193CD13100C03C6A /* Images */,
@@ -360,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D43CE4A193CD10900C03C6A /* InfoPlist.strings in Resources */,
+				1D189F43193E27B500C2ABFB /* images.jpeg in Resources */,
 				1D43CE52193CD10900C03C6A /* Images.xcassets in Resources */,
 				1D189F38193E04C300C2ABFB /* Storyboard.storyboard in Resources */,
 			);
@@ -385,6 +394,7 @@
 				1D189F3E193E0CA700C2ABFB /* EuroConverterViewController.m in Sources */,
 				1D43CE7F193CD15D00C03C6A /* AppDelegate.m in Sources */,
 				1D8FC6B2193DC353000BEC64 /* Person.m in Sources */,
+				1D189F41193E264B00C2ABFB /* AlphaViewController.m in Sources */,
 				1D8FC6B5193DE8CD000BEC64 /* EuroConverter.m in Sources */,
 				1D43CE4C193CD10900C03C6A /* main.m in Sources */,
 			);

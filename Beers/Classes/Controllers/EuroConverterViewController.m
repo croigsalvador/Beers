@@ -7,8 +7,12 @@
 //
 
 #import "EuroConverterViewController.h"
+#import "EuroConverter.h"
 
 @interface EuroConverterViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 
 @end
 
@@ -18,6 +22,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+- (IBAction)convertMoney:(UIButton *)sender {
+    
+    float result = [EuroConverter convertFromPesetaToEuro:[self.textField.text floatValue]];
+    self.resultLabel.text = [NSString stringWithFormat:@"%.02f",result];
 }
 
 /*

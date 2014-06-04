@@ -7,8 +7,14 @@
 //
 
 #import "EuroCalculatorViewController.h"
+#import "EuroConverter.h"
 
 @interface EuroCalculatorViewController ()
+
+@property(nonatomic, assign)float totalValue;
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
+@property (strong, nonatomic) NSString *value;
+@property (assign,nonatomic, getter = isAlreadyCalculated)BOOL alreadyCalculated;
 
 @end
 
@@ -19,13 +25,38 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
-- (IBAction)getButtonValue:(UIButton *)sender {
+#pragma mark - IBActions
+
+- (IBAction)processDigit:(id)sender {
+    if(![sender isKindOfClass:[UIButton class]]) {
+        return;
+    }
+    if (self.isAlreadyCalculated) {
+        self.alreadyCalculated = NO;
+        self.resultLabel.text = @"";
+    }
+    UIButton *button = (UIButton *)sender;
+    self.totalValue = button.tag;
+    NSString *totalText = [self.resultLabel.text stringByAppendingString:[NSString stringWithFormat:@"%lu",(unsigned long)self.totalValue]];
+    self.resultLabel.text = totalText;
+    
 }
 
 - (IBAction)convertToEuros:(id)sender {
+    float value = [EuroConverter convertFromPesetaToEuro:[self.resultLabel.text floatValue]];
+
+    NSString *totalText = [NSString stringWithFormat:@"%.02f", value];
+    self.resultLabel.text = totalText;
+    self.alreadyCalculated = YES;
+    
 }
 
 - (IBAction)converToPesetas:(id)sender {
+    int value = [EuroConverter convertFromEuroToPeseta:[self.resultLabel.text floatValue]];
+    
+    NSString *totalText = [NSString stringWithFormat:@"%d", value];
+    self.resultLabel.text = totalText;
+    self.alreadyCalculated = YES;
 }
 
 /*
