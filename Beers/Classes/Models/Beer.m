@@ -69,7 +69,7 @@
 #pragma mark - Public Methods
 
 - (void)printBeerInfo {
-    NSLog(@"Name: %@ Color: %@ & alcohol: %d",name ,color, grade);
+    NSLog(@"Name: %@ Color: %@ & alcohol: %lu",name ,color, (unsigned long)grade);
 }
 
 - (void)printBeerInfoWithHeader:(NSString *)header {
@@ -83,7 +83,7 @@
 }
 
 - (void)printBeerInfoWithHeader:(NSString *)header footer:(NSString *)footer andNumberOfEmojis:(NSUInteger)numberOfEmojis {
-    NSLog(@"Header: %@, Footer: %@ & NumberOfEmojis: %d", header, footer, numberOfEmojis);
+    NSLog(@"Header: %@, Footer: %@ & NumberOfEmojis: %lu", header, footer, (unsigned long)numberOfEmojis);
     [self printBeerInfo];
 }
 

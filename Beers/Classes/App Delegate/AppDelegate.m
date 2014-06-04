@@ -52,13 +52,11 @@
     
     // Persons
     
-    Person *carlos = [[Person alloc] init];
-    carlos.age = 26;
-    carlos.married = NO;
-    carlos.address = @"Atocha";
-    
+
     
     Person *groucho = [[Person alloc] init];
+    NSLog(@"Prueba nameeeeee %@  🙀", groucho.name);
+    
     Person *harpo = [[Person alloc] initWithName:@"Harpo"];
     Person *homer = [[Person alloc] initWithName:@"Homer" andAddress:@"C/ Alameda"];
     Person *pepe = [[Person alloc] initWithName:@"Homer" andAddress:@"C/ Alcalá" age:40];
@@ -99,6 +97,9 @@
     NSLog(@"3000 Pesetas son %d Euros, instance Method", [converter convertToPeseta]);
     
     NSLog(@"20 Euros son %d pesetas, class method",[EuroConverter convertFromEuroToPeseta:20]);
+    
+    
+     NSLog(@"Prueba nameeeeee %@  🙀", groucho.name);
     
     return YES;
 }

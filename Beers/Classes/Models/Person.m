@@ -10,7 +10,7 @@
 
 static NSUInteger kDefaultAge                       = 18;
 static NSString *kDefaultAddress                    = @"C/ Alameda";
-static NSString *kDefaultName                       = @"Default";
+static NSString *kDefaultName                       = @"Carlos";
 
 
 @implementation Person
