@@ -26,6 +26,9 @@
 		1D43CE82193CD18C00C03C6A /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D43CE81193CD18C00C03C6A /* Beer.m */; };
 		1D722149193F25B100C909AE /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D722148193F25B100C909AE /* PersonTests.m */; };
 		1D72214B193F34E200C909AE /* BeerListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D72214A193F34E200C909AE /* BeerListTests.m */; };
+		1D72214E193F35F800C909AE /* BeerList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D72214D193F35F800C909AE /* BeerList.m */; };
+		1D722151193F7DF000C909AE /* Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D722150193F7DF000C909AE /* Hotel.m */; };
+		1D722156193F801F00C909AE /* HotelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D722155193F801F00C909AE /* HotelTests.m */; };
 		1D8FC6B2193DC353000BEC64 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FC6B1193DC353000BEC64 /* Person.m */; };
 		1D8FC6B5193DE8CD000BEC64 /* EuroConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FC6B4193DE8CD000BEC64 /* EuroConverter.m */; };
 /* End PBXBuildFile section */
@@ -68,6 +71,11 @@
 		1D43CE81193CD18C00C03C6A /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
 		1D722148193F25B100C909AE /* PersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
 		1D72214A193F34E200C909AE /* BeerListTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerListTests.m; sourceTree = "<group>"; };
+		1D72214C193F35F800C909AE /* BeerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerList.h; sourceTree = "<group>"; };
+		1D72214D193F35F800C909AE /* BeerList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerList.m; sourceTree = "<group>"; };
+		1D72214F193F7DF000C909AE /* Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotel.h; sourceTree = "<group>"; };
+		1D722150193F7DF000C909AE /* Hotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hotel.m; sourceTree = "<group>"; };
+		1D722155193F801F00C909AE /* HotelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelTests.m; sourceTree = "<group>"; };
 		1D8FC6B0193DC353000BEC64 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		1D8FC6B1193DC353000BEC64 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		1D8FC6B3193DE8CD000BEC64 /* EuroConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverter.h; sourceTree = "<group>"; };
@@ -158,6 +166,7 @@
 				1D43CE5F193CD10900C03C6A /* Supporting Files */,
 				1D722148193F25B100C909AE /* PersonTests.m */,
 				1D72214A193F34E200C909AE /* BeerListTests.m */,
+				1D722155193F801F00C909AE /* HotelTests.m */,
 			);
 			path = BeersTests;
 			sourceTree = "<group>";
@@ -218,6 +227,10 @@
 				1D8FC6B1193DC353000BEC64 /* Person.m */,
 				1D8FC6B3193DE8CD000BEC64 /* EuroConverter.h */,
 				1D8FC6B4193DE8CD000BEC64 /* EuroConverter.m */,
+				1D72214C193F35F800C909AE /* BeerList.h */,
+				1D72214D193F35F800C909AE /* BeerList.m */,
+				1D72214F193F7DF000C909AE /* Hotel.h */,
+				1D722150193F7DF000C909AE /* Hotel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -423,6 +436,8 @@
 				1D8FC6B2193DC353000BEC64 /* Person.m in Sources */,
 				1D189F41193E264B00C2ABFB /* AlphaViewController.m in Sources */,
 				1D8FC6B5193DE8CD000BEC64 /* EuroConverter.m in Sources */,
+				1D72214E193F35F800C909AE /* BeerList.m in Sources */,
+				1D722151193F7DF000C909AE /* Hotel.m in Sources */,
 				1D43CE4C193CD10900C03C6A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +448,7 @@
 			files = (
 				1D722149193F25B100C909AE /* PersonTests.m in Sources */,
 				1D72214B193F34E200C909AE /* BeerListTests.m in Sources */,
+				1D722156193F801F00C909AE /* HotelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

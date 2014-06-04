@@ -18,11 +18,11 @@
 @property (strong, nonatomic) NSString *country;
 
 
-//#pragma mark - Initializers
-//
-//- (id)initWithName:(NSString *)aName color:(NSString *)aColor andAlcohol:(NSUInteger)aGrade;
-//
-//
+#pragma mark - Initializers
+
+- (id)initWithName:(NSString *)aName;
+
+
 
 #pragma mark - Custom Getters
 

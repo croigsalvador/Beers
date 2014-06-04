@@ -14,6 +14,8 @@
 
 #pragma mark - Initializer
 
+
+
 //- (id)initWithName:(NSString *)aName color:(NSString *)aColor andAlcohol:(NSUInteger)aGrade {
 //    if (self = [super init]){
 //        name = aName;
