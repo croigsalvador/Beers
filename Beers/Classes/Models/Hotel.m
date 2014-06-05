@@ -15,12 +15,12 @@
 
 @implementation Hotel
 
-- (id)init {
-    if (self = [super init]){
-        _rooms = [[NSMutableDictionary alloc] init];
-    }
-    return self;
-}
+//- (id)init {
+//    if (self = [super init]){
+//        _rooms = [[NSMutableDictionary alloc] init];
+//    }
+//    return self;
+//}
 
 - (NSMutableDictionary *)rooms {
     if (!_rooms) {

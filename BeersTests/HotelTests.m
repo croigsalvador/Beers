@@ -18,6 +18,20 @@ static NSString *kNameTestKey               = @"Carlos";
 
 @implementation HotelTests
 
+
+- (void)testCanCreateAnHotel {
+    Hotel *hotel = [[Hotel alloc] init];
+    XCTAssertNotNil(hotel, @"OMG NIL 🙀");
+    
+    Person *person = [[Person alloc] initWithName:kNameTestKey];
+    [hotel addPerson:person toRoom:@"Room1"];
+    
+    NSUInteger count = [hotel numberOfOcupiedRooms];
+    
+    XCTAssertEqual(1,count , @" Count =  %lu", (unsigned long)count);
+}
+
+
 - (void)testCanAddAPersonToHotel {
     Hotel *hotel = [[Hotel alloc] init];
     XCTAssertNotNil(hotel, @"OMG NIL 🙀");
